@@ -1,0 +1,288 @@
+/* body */
+body{
+    font-family: 'Fira Sans', sans-serif;
+	font-weight: 400;
+	font-size:14px;
+	color:#363636;
+	position:relative;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight:500;
+}
+a,button{
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	transition:all 0.3s ease;
+	outline:none;
+	box-shadow:none;
+	text-decoration:none;
+}
+
+/* social */
+.social-body{
+	position:fixed;
+	top:50%;
+	left:0;
+	margin-top:-80px;
+	z-index:999;
+}
+.social-body ul li{
+	display:block;
+}
+.social-body ul li a{
+	font-size:20px;
+	color:#fff;
+	background:#140f0b;
+	height: 40px;
+    width: 40px;
+	line-height:40px;
+	text-align:center;
+	display:block;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+}
+.social-body ul li a:hover{
+	width:50px;
+}
+.social-body  ul li.vk a{
+	background:#425F9C;
+}
+.social-body .ul li.steam a{
+	background: #140f0b;
+}
+.social-body ul li.discord a {
+	background: #00FFFF;
+}
+
+/*section-title*/
+.section-title {
+	text-align: center;
+}
+.section-title h2 {
+	color:#000;
+	font-size: 44px;
+	text-transform: uppercase;
+	position: relative;
+	font-weight: 700;
+}
+.section-title h2 span {
+	color: #42bc7f;
+}
+
+/*=========================
+	Header CSS
+===========================*/
+.header{
+	background:linear-gradient(-154deg,#fad201,#ffc300);
+}
+.header .navbar-collapse{
+	padding:0;
+}
+.header .header-inner {
+	background: linear-gradient(-154deg,#fad201,#ffc300);
+	-webkit-box-shadow: 0px 0px 5px #000;
+	-moz-box-shadow: 0px 0px 5px #000;
+	box-shadow: 0px 0px 5px #000;
+	z-index: 9000;
+}
+.header .navbar-nav {
+	float: right;
+	margin: 0;
+}
+.header .logo{
+	float:left;
+	padding-top:16px;
+}
+.header .navbar {
+	background: none;
+	box-shadow: none;
+	border: none;
+	margin: 0;
+	min-height: 0px;
+}
+.header .nav li{
+    float: left;
+	position:relative;
+}
+.header .nav li:last-child{
+	margin:0;
+}
+.header .nav li a {
+	color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 30px 40px;
+    position: fixed left;
+    display: inline-block;
+	box-shadow:none;
+	text-shadow:none;
+}
+.header .nav li:hover a,
+.header .nav li.current a{
+	color:#fff;
+}
+.header .nav li:hover a{
+	color:#fff;
+}
+.header .nav li .dropdown{
+	background: #333;
+    width: 220px;
+    position: absolute;
+    left: 40px;
+    z-index: 99;
+	opacity:0;
+	visibility:hidden;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+}
+.header .nav li:hover .dropdown{
+	opacity:1;
+	visibility:visible;
+	left: 0px;
+}
+.header .nav li .dropdown li{
+	float:none;
+	margin:0;
+}
+.header .nav li .dropdown li a{
+	padding: 10px 15px;
+    color: #fff;
+    display: block;
+}
+.header .nav li .dropdown li i{
+	float:right;
+}
+.header .nav li .dropdown li:hover a{
+	color:#42BC7F;
+}
+.header .nav li .dropdown li a:before{
+	display:none;
+}
+.header .nav li .dropdown .sub-dropdown{
+	position: absolute;
+    top: 0;
+    left: 110%;
+    width: 220px;
+    background: #333;
+	opacity:0;
+	visibility:hidden;
+	transition:all 0.4s ease;
+}
+/*=========================
+	End Header CSS
+===========================*/
+.bill {
+background:linear-gradient(-154deg,#000000,#000000); }
+
+/*=========================
+	About CSS
+===========================*/
+.about{
+	padding-top:100px;
+	padding-bottom:100px;
+}
+.about .single-about p{
+	margin-bottom:  25px;
+	font-size:18px;
+	font-weight:300;
+}
+.about .single-about .cv {
+	z-index:99;
+	margin-top: 40px;
+}
+.about .single-about .cv a {
+	font-weight: 500;
+	font-size: 18px;
+	height: 40px;
+	color: #000000;
+	background:#000000;
+	text-transform:uppercase;
+	display: inline-block;
+	line-height: 40px;
+	padding: 0 30px 0 30px;
+}
+.about .section-title{
+	margin-top:127px;
+}
+.about .single-about .cv a:hover{
+	background:#333;
+}
+.about .single-about .social{
+	margin-top: 20px;
+}
+.about .single-about .social ul{}
+.about .single-about .social li{
+	display:inline-block;
+	margin-right:10px;
+}
+.about .single-about .social li:last-child{
+	margin-right:0px;
+}
+.about .single-about .social li a{
+	text-align:center;
+}
+.about .single-about .social li a i {
+	font-size: 20px;
+	color: #fff;
+	background: #42bc7f;
+	font-size: 17px;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	border-radius: 0px;
+
+}
+.about .single-about .social li a:hover i{
+	color:#fff;
+	background:#333;
+}
+.about .image{
+	position:relative;
+}
+.about .image img {
+	width: 100%;
+	box-shadow: 2px 2px 10px #0000002e;
+}
+ .image{
+	color: #fff;
+	height: 280px;
+	width: 280px;
+	line-height: 60px;
+	text-align: left;
+	font-size: 40px;
+	border-radius: 0px;
+	position: absolute;
+	left: 150%;
+	top: -1000%;
+	margin-left: -30px;
+	margin-top: -380px;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	border-radius: 100%;
+	padding-left: 3px;
+	padding-top: 1px;
+}
+.about .image .video-popup:hover{
+	transform:scale(1.1);
+	color:#fff;
+	background:#3339;
+}
+/*=========================
+	End About CSS
+===========================*/
+.video1 {
+padding-left: 50px;
+}
+.vid {
+border: solid 5px black}
+.vid2 {
+border: solid 5px black}
+.vid3 {
+border: solid 5px black}
+.big {
+	color: #ffffff
+}
